@@ -25,10 +25,28 @@ Course alignment is the connection between our respected goals and student need.
 
 Mapped By AKTU Virtual Cell.
 
-<b>Name of Developer | <b> Pawan Pandey
+<b>Name of Developer | <b> Pulkit Bindal
 :--|:--|
 <b> Institute | <b> Raj Kumar Goel Institute Of Technology
-<b> Email id|     <b> pawanfcs@rkgit.edu.in
+<b> Email id|     <b> pulkit507shamli@gmail.com
+<b> Department | Computer Science and Engineering
+
+<b>Name of Developer | <b> Shaksham Agarwal
+:--|:--|
+<b> Institute | <b> Raj Kumar Goel Institute Of Technology
+<b> Email id|     <b> shaksham31072000@gmail.com
+<b> Department | Computer Science and Engineering
+
+<b>Name of Developer | <b> Satyarth Singh
+:--|:--|
+<b> Institute | <b> Raj Kumar Goel Institute Of Technology
+<b> Email id|     <b> satyarths1@gmail.com
+<b> Department | Computer Science and Engineering
+
+<b>Name of Developer | <b> Shivangi Gupta
+:--|:--|
+<b> Institute | <b> Raj Kumar Goel Institute Of Technology
+<b> Email id|     <b> guptashivangi760@gmail.com
 <b> Department | Computer Science and Engineering
 
 #### Mentor Details
