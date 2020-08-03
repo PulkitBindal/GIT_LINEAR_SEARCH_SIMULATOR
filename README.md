@@ -1,56 +1,53 @@
 ## Introduction (Round 0)
 
-Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
-<br>
-
-<b>Discipline | <b>Type Name of Discpline  to which lab belongs
+<b>Discipline | <b>Computer Science and Engineering 
 :--|:--|
-<b> Lab | <b> Type name of the lab
-<b> Experiment|     <b> 1. (enter the correct experiment number) Name of the experiment
+<b> Lab | <b> Python Language Programming Lab
+<b> Experiment|     <b> 1.To write a python program linear search
 
 <h5> About the Lab (Objective) : </h5>
 
-Type here: berif description of the lab
+To perform the linear search in an array.
 
 <h5> About the Experiment : </h5>
 
-Type here: berif description of this experiment
+In this digital world we can provide an online platform to perform lab experiments and also you can enhance your technical skills as well.
 
 <h5> Target Audience : </h5>
 
-Type here: the target audience
+All the students from Bachelor Of Technology can use the Lab.
 
 <h5> Course Alignment : </h5>
 
-Type here: courses aligned
+Course alignment is the connection between our respected goals and student need.
 
 <h5> Universities Mapped : </h5>
 
-Type here: universities mapped
+Mapped By AKTU Virtual Cell.
 
-<b>Name of Developer | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Name of Developer | <b> Pawan Pandey
 :--|:--|
-<b> Institute | <b> My Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department in which you work
+<b> Institute | <b> Raj Kumar Goel Institute Of Technology
+<b> Email id|     <b> pawanfcs@rkgit.edu.in
+<b> Department | Computer Science and Engineering
 
 #### Mentor Details
 
-<b>Mentored by | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Mentored by | <b> Pawan Pandey
 :--|:--|
-<b> Institute | <b> Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department
+<b> Institute | <b> Raj Kumar Goel Institute Of Technology
+<b> Email id|     <b> pawanfcs@rkgit.edu.in
+<b> Department | Computer Science and Engineering
 
 #### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Full name | Faculty | Dept Name | Name of the Insitute, City | abc@example.com
-2 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-3 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-4 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-5 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
+1 | Pawan Pandey | Faculty | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | pawanfcs@rkgit.edu.in
+2 | Pulkit Bindal | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | pulkit507shamli@gmail.com
+3 | Shaksham Agarwal | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | shaksham31072000@gmail.com
+4 | Satyarth Singh | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | satyarths1@gmail.com
+5 | Shivangi Gupta | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | guptashivangi760@gmail.com
 
 
 <br>
