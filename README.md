@@ -68,5 +68,3 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 5 | Shivangi Gupta | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | guptashivangi760@gmail.com
 
 
-<br>
-for more details on Rounds visit : <b> [HERE](http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/List-of-Rounds/blob/master/README.md) </b>
