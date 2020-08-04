@@ -30,7 +30,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| Student will be able to: <br>Describe linear search algorithm <br>  | Understand | Describe
 2.| Student will be able to: <br>Analyze the complexity of linear search algorithm <br>  | Analyze | Analyze
-3.| Student will be able to: <br>Identify an element from given list. <br>  | Indentify | Apply
+3.| Student will be able to: <br>Identify an element from given list of Array. <br>  | Indentify | Apply
 4.| Student will be able to: <br>Develop the python program for linear search algorithm. <br>  | Develop | Create
 
 
@@ -44,12 +44,14 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-###### Name of Instructional Strategy  :    <u> As per Handout
-###### Assessment Method: As per handout
+###### Name of Instructional Strategy  :    <u> Problem Based
+###### Assessment Method: Formative Assessment
 
-<u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
+<u> <b>Description: </b> Make an array of n elements.: </u>
+<u> <b>Description: </b> insert an element.to search: </u>
+<u> <b>Description: </b> print element is found or not.  </u>
 <br>
- Brief description as per handout
+ 
 
 <br/>
 <div align="right">
@@ -66,8 +68,10 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | Type the question that will assess what student has learnt
-2.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
+1.| To describe linear search algorithm. | <br> student will perform | 1 Where can Linear Search be performed? <br> A. on numbers <br> B. on letters <br> C. on both <br> <b> D. none of these </b> <br> 
+2.| To describe linear search algorithm. | Type the task that <br> student will perform | 1 Where can Linear Search be performed? <br> A. Binary search algorithm <br> B. Bubble sort algorithm <br> C. Sequential search algorithm <br>  <br>
+2.| To analyze the complexity of linear search algorithm. | 1 How many linear searches will it take to find the value 7 in the list [1,4,8,7,10,28]? <br> A. 2 <br> B. 3 <br> C. 4 <br> <b> D. 5 </b> <br> 
+
 
 
 You can add more question. All questions may not be as MCQ
