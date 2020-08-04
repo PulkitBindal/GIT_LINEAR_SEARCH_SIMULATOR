@@ -10,7 +10,7 @@ Remove this line before submitting : To Refer a filled sample of this template v
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Python Language Programming Lab
-<b> Experiment|     <b> 1. To write a python program linear search </b>
+<b> Experiment|     <b> 1. To write a python program linear search </b></b></b></b></b></b></b></b></b></b></b>
 
 
 <h4> [1. Focus Area](#LO)
