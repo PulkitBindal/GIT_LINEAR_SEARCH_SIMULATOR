@@ -92,7 +92,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Student will insert total no of elements in an array <br>  <br>  | Simulator takes input <br>   | Describe the purpose in detail.
-2.| Student will insert elements in that array <br>  <br>  | Simulator takes input <br>   | Describe the purpose in detail.
-3.| Student will insert element to be searched in that array <br>  <br>  | Simulator takes input <br>   | Describe the purpose in detail.
-4.| Student will see output <br>  <br>  | Simulator displays output <br>  | Describe the purpose in detail.
+1.| Student will insert total no of elements in an array. <br>  <br>  | Simulator takes input from user. <br>   | to insert total no of elements in an array.
+2.| Student will insert elements in that array. <br>  <br>  | Simulator takes input from user. <br>   | to insert elements in that array.
+3.| Student will insert element to be searched in that array. <br>  <br>  | Simulator takes input from user. <br>   | inserted element will be searched.
+4.| Student will see output. <br>  <br>  | Simulator displays output on screen. <br>  | that element will be searched in that aaray using linear search and produce result.
