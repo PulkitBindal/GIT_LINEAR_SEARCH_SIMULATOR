@@ -29,7 +29,7 @@ Remove this line before submitting : To Refer a filled sample of this template v
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| Student will be able to: <br>Describe linear search algorithm <br>  | Understand | Describe
-2.| Student will be able to: <br>Identify an element from given list. <br> Next line here. | Indentify | Apply
+2.| Student will be able to: <br>Identify an element from given list. <br>  | Indentify | Apply
 
 
 
