@@ -4,7 +4,7 @@
 Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
 <br>
 <br>
-<b> Experiment ABCDEF Lab  <a name="top"></a> <br>
+<b> Experiment: Python Language Programming Lab  <a name="top"></a> <br>
 </p>
 
 <b>Discipline | <b>Computer Science and Engineering
@@ -29,7 +29,9 @@ Remove this line before submitting : To Refer a filled sample of this template v
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| Student will be able to: <br>Describe linear search algorithm <br>  | Understand | Describe
-2.| Student will be able to: <br>Identify an element from given list. <br>  | Indentify | Apply
+2.| Student will be able to: <br>Analyze the complexity of linear search algorithm <br>  | Analyze | Analyze
+3.| Student will be able to: <br>Identify an element from given list. <br>  | Indentify | Apply
+4.| Student will be able to: <br>Develop the python program for linear search algorithm. <br>  | Develop | Create
 
 
 
