@@ -22,7 +22,7 @@ Remove this line before submitting : To Refer a filled sample of this template v
 
 <a name="LO"></a>
 #### 1. Focus Area : Reinforce theoretical concept, Experimentation.
-
+The students know the concept of linear search, its complexity and able to write program in python.
 #### 2. Learning Objectives and Cognitive Level
 
 
