@@ -7,19 +7,20 @@
 
 <h5> About the Lab (Objective) : </h5>
 
-To perform the linear search in an array.
+This lab is about the programming language python. Python is a scripting language. In this lab student will learn how to write program for searching techniques (linear and binary search), various sorting algorithms (selection, insertion and merge sort) and some other programs i.e. to print first n prime numbers and to simulate bouncing ball in Pygame.
+   
 
 <h5> About the Experiment : </h5>
 
-In this digital world we can provide an online platform to perform lab experiments and also you can enhance your technical skills as well.
+Linear search is a very simple and basic search algorithm, also known as a sequential search, is a method of finding an element within a list. It checks each element of the list sequentially until a match is found or the whole list has been searched..
 
 <h5> Target Audience : </h5>
 
-All the students from Bachelor Of Technology can use the Lab.
+All the under gradate students of computer related streams from varous engg. colleges and universities.
 
 <h5> Course Alignment : </h5>
 
-Course alignment is the connection between our respected goals and student need.
+students have learning objective to write above python programs with the learning activity of having these executable program and assessment will be done based on program's output.
 
 <h5> Universities Mapped : </h5>
 
