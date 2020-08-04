@@ -16,11 +16,11 @@ Linear search is a very simple and basic search algorithm, also known as a seque
 
 <h5> Target Audience : </h5>
 
-All the under gradate students of computer related streams from varous engg. colleges and universities.
+All the under graduate students of computer related streams from varous engineering colleges and universities.
 
 <h5> Course Alignment : </h5>
 
-students have learning objective to write above python programs with the learning activity of having these executable program and assessment will be done based on program's output.
+Students have learning objective to write above python programs with the learning activity of having these executable program and assessment will be done based on program's output.
 
 <h5> Universities Mapped : </h5>
 
