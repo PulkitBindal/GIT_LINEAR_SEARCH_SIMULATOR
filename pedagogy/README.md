@@ -70,7 +70,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 :--|:--|:--|:-:
 1.| To describe linear search algorithm. | <br> read theory concepts | 1 Where can Linear Search be performed? <br> A. on numbers <br> B. on letters <br> <b>C. on both </b> <br>  D. none of these  <br>2 A linear search algorithm is also known as <br> A. Binary search algorithm <br> B. Bubble sort algorithm <br> <b> C. Sequential search algorithm <br> </b>  <br>
 2.| To analyze the complexity of linear search algorithm. | analyze the algorithm <br> | 1 How many linear searches will it take to find the value 7 in the list [1,4,8,7,10,28]? <br> A. 2 <br> B. 3 <br> <b> C. 4 </b> <br>  D. 5  <br> 
-3.| To analyze the complexity of linear search algorithm. | analyze the algorithm <br> | 1 What will happen in a Linear search algorithm if no match is found? <br> A. It continues to search in a never ending loop.  <b> B. "Item not found" is returned </b> <br>   <br> 
+3.| To identify an element from given list of Array. | analyze the algorithm <br> | 1 What will happen in a Linear search algorithm if no match is found? <br> A. It continues to search in a never ending loop.  <b> B. "Item not found" is returned </b> <br>   <br> 
 
 
 
