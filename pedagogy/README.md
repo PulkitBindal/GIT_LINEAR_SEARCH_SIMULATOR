@@ -74,13 +74,11 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 
 
-You can add more question. All questions may not be as MCQ
-Please add the correct answer as well.
-or type the correct answer below the question.
+
 
  <br>
 
- <u> You can add additional TASKS & Assessment Questions <u>
+ <u>  <u>
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -90,7 +88,7 @@ or type the correct answer below the question.
 
 <a name="SI"></a>
 
-#### 4. Simulator Interactions:
+#### 5. Simulator Interactions:
 <br>
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
