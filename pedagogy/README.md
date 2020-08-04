@@ -4,13 +4,13 @@
 Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
 <br>
 <br>
-<b> Experiment: Python Language Programming Lab  <a name="top"></a> <br>
+<b> Experiment: To write a python program linear search  <a name="top"></a> <br>
 </p>
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Python Language Programming Lab
-<b> Experiment|     <b> 1. To write a python program linear search
+<b> Experiment|     <b> 1. To write a python program linear search </b>
 
 
 <h4> [1. Focus Area](#LO)
