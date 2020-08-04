@@ -47,9 +47,9 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u> Problem Based
 ###### Assessment Method: Formative Assessment
 
-<u> <b>Description: </b> Make an array of n elements.: </u>
-<u> <b>Description: </b> insert an element.to search: </u>
-<u> <b>Description: </b> print element is found or not.  </u>
+<u> <b>Description: </b>1. Make an array of n elements.: </u><br>
+<u> <b></b>2. insert an element.to search: </u><br>
+<u> <b> </b>3. print element is found or not.  </u><br>
 <br>
  
 
