@@ -12,7 +12,7 @@ This lab is about the programming language python. Python is a scripting languag
 
 <h5> About the Experiment : </h5>
 
-Linear search is a very simple and basic search algorithm, also known as a sequential search, is a method of finding an element within a list. It checks each element of the list sequentially until a match is found or the whole list has been searched..
+Linear search is a very simple and basic search algorithm, also known as a sequential search, is a method of finding an element within a list. It checks each element of the list sequentially until a match is found or the whole list has been searched.
 
 <h5> Target Audience : </h5>
 
