@@ -69,7 +69,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.| To describe linear search algorithm. | <br> read theory concepts | 1 Where can Linear Search be performed? <br> A. on numbers <br> B. on letters <br> <b>C. on both </b> <br>  D. none of these  <br> 
-2.| To describe linear search algorithm. | read theory concepts <br>  | 1 Where can Linear Search be performed? <br> A. Binary search algorithm <br> B. Bubble sort algorithm <br> <b> C. Sequential search algorithm <br> </b>  <br>
+2.| To describe linear search algorithm. | read theory concepts <br>  | 1 A linear search algorithm is also known as <br> A. Binary search algorithm <br> B. Bubble sort algorithm <br> <b> C. Sequential search algorithm <br> </b>  <br>
 2.| To analyze the complexity of linear search algorithm. | analyze the algorithm <br> | 1 How many linear searches will it take to find the value 7 in the list [1,4,8,7,10,28]? <br> A. 2 <br> B. 3 <br> <b> C. 4 </b> <br>  D. 5  <br> 
 
 
