@@ -20,7 +20,7 @@
 
 <a name="LO"></a>
 #### 1. Focus Area : Reinforce theoretical concept, Experimentation.
-The students know the concept of linear search, its complexity and able to write program in python.
+with the theoretical concept of linear search, student write a program in python and understand the concept.
 #### 2. Learning Objectives and Cognitive Level
 
 
