@@ -42,7 +42,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-###### Name of Instructional Strategy  :    <u> Problem Solving Based
+###### Name of Instructional Strategy  :    <u> Problem Based
 ###### Assessment Method: Formative Assessment
 
 <u> <b>Description: </b>1. Make an array of n elements: </u><br>
