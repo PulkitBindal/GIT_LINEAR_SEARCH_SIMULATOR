@@ -29,9 +29,8 @@ So let's now know how to work on our simulator-
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+The Challenges and Questions/Complexity/Variations is that our program will not work on Decimals and Characters when given as input in the textfield. Secondly it can be possible in future that this issue will become a Challenge for others in order to improve it.
 
-Give 10 Questions here..!!!
 
 ##### 2.5 Allow pitfalls:
 
@@ -50,9 +49,6 @@ Tool can be used to integrate formula in Markdown <b> [here](http://latex.codeco
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
-<br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
 
 ### 4. Mindmap:
 <img src="mindmap/mindmap.png"/>
@@ -62,5 +58,3 @@ link to flow chart Here : Store in the  /flowchart folder within Round2 folder i
 
 ### 5. Storyboard :
 Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
-Link to storybaord (.gif file ) here :
-(guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool) . tutorial on how to use it https://www.youtube.com/watch?v=LAeCEpG0KX4
