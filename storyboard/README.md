@@ -43,18 +43,16 @@ To conclude all the basic details about the simulator-
 There are 10 questions with different difficulty levels. Assessment/evaluation of the multiple choice questions will be given immediately to the user. When the student clicks on the answer of his choice, the correct answer will be displayed below the question itself. This would enable the student to understand whether he is right or wrong. The approximate time required to understand the procedure to perform the experiment would take about 5 minutes. I order to enter and generate the data, user will take another 5 minutes. Answering the assessment questions will take about 5 minutes. Thus the total time required to perform the experiment will require around  15 minutes.
 
 ##### 2.7 Equations/formulas: NA
-Type equations here : (guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
-Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
 
+No Equations or Formulas is used here.
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
 
 ### 4. Mindmap:
-<img src="mindmap/mindmap.png"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
- <br>
- (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
 
+<img src="mindmap/mindmap.png"/>
+Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
+ 
 ### 5. Storyboard :
 Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
