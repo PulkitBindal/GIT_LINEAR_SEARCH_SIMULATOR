@@ -47,7 +47,7 @@ There are 10 questions with different difficulty levels. Assessment/evaluation o
 No Equations or Formulas is used here.
 
 ### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br>
+<img src="flowchart/flowchart1.jpg"/><br>
 
 ### 4. Mindmap:
 
