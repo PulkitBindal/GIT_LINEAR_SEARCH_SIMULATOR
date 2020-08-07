@@ -56,4 +56,4 @@ No Equations or Formulas are used here.
  
 ### 5. Storyboard :
 
-Storyboard: <a href="Storyboard/linearsearch.gif"> [Click here]</a>
+Storyboard: <a href="storyboard/linearsearch.gif"> [Click here]</a>  
