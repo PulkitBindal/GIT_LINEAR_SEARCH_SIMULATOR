@@ -8,6 +8,10 @@ A linear search sequentially checks each element of the list until it fids an el
 
 ### 2. Story:
 
+The sequential search, also known as the linear search, are the most basic search algorithms and are often the first search method learned in introductory computer science courses.
+The basic strategy is straightforward. Every element in the data set is examined in the order presented until the value being searched for is found. If the value being searched for doesn't exist, a flag value is returned (such as -1 for an array or NULL for a linked list).
+Sequential search is at best O(1), at worst O(n), and on average O(n). If the data being searched are not sorted, then it is a relatively efficient search. However, if the data being searched are sorted, we can do much better. 
+
 #### 2.1 Set the Visual Stage Description:
 
 When you come to the landing page of our simulator, you will see some options like how many elements you want to give, next you have to enter those elements of array, after that you have to write that number which you want to find from that array. You will be given the index number of the element if it is present in that array Or the title "The element not found" if the element is not in that array.
@@ -31,6 +35,35 @@ So let's now know how to work on our simulator-
 
 The Challenges and Questions/Complexity/Variations is that our program will not work on Decimals and Characters when given as input in the textfield. Secondly it can be possible in future that this issue will become a Challenge for others in order to improve it.
 
+Q.Which of the following is a disadvantage of linear search?<br>
+a) Requires more space<br>
+<b>b) Greater time complexities compared to other searching algorithms</b> <br>
+c) Not easy to understand<br>
+d) Not easy to implement<br>
+ 
+Q.What can be the best case and worst case complexity of ordered linear search according to you?<br>
+a) O(nlogn), O(logn)<br>
+b) O(logn), O(nlogn)<br>
+c) O(n), O(1)<br>
+<b>d) O(1), O(n)</b><br>
+
+Q.Is there any difference in the speed of execution between linear search (Recursive) vs linear search (lterative)?<br>
+a) Both execute at same speed<br>
+<b>b) Linear search(Iterative) is faster</b><br>
+c) Linear search(recursive) is faster <br>
+d) No idea <br>
+
+Q. What is the worst case runtime of linear search (Recursive) algorithm?<br>
+<b>a) O(n)</b><br>
+b) O(logn)<br>
+c) O(n2)<br>
+d) O(nx)<br>
+ 
+Q.The array is as follows: 1,2,3,6,8,10. Given that the number 17 is to be searched. At which call it tells that there’s no such element? (By using linear search Recursive algorithm )<br>
+<b>a) 7th call</b><br>
+b) 9th call<br>
+c) 17th call<br>
+d) The function calls itself infinite times<br>
 
 ##### 2.5 Allow pitfalls:
 
