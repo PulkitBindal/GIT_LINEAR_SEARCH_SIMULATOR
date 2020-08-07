@@ -40,19 +40,20 @@ If the user enters invalid data to the textfield, then the index number will not
 
 To conclude all the basic details about the simulator-
 
-There are 10 questions with different difficulty levels. Assessment/evaluation of the multiple choice questions will be given immediately to the user. When the student clicks on the answer of his choice, the correct answer will be displayed below the question itself. This would enable the student to understand whether he is right or wrong. The approximate time required to understand the procedure to perform the experiment would take about 5 minutes. I order to enter and generate the data, user will take another 5 minutes. Answering the assessment questions will take about 5 minutes. Thus the total time required to perform the experiment will require around  15 minutes.
+There are 10 questions with different difficulty levels. Assessment/evaluation of the multiple choice questions will be given immediately to the user. When the student clicks on the answer of his choice, the correct answer will be displayed below the question itself. This would enable the student to understand whether he is right or wrong. The approximate time required to understand the procedure to perform the experiment would take about 5 minutes. In order to enter and generate the index, user will take another 5 minutes. Answering the assessment questions will take about 5 minutes. Thus the total time required to perform the experiment will require around 15 minutes.
 
-##### 2.7 Equations/formulas: NA
+##### 2.7 Equations/formulas:
 
-No Equations or Formulas is used here.
+No Equations or Formulas are used here.
 
-### 3. Flowchart 4
+### 3. Flowchart :
+
 <img src="flowchart/flowchart1.jpg"/><br>
 
-### 4. Mindmap:
+### 4. Mindmap :
 
 <img src="mindmap/mindmap.png"/>
-Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
  
 ### 5. Storyboard :
-Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
+
+Storyboard: <a href="Storyboard/linearsearch.gif"> [Click here]</a>
