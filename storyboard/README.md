@@ -33,7 +33,7 @@ So let's now know how to work on our simulator-
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-The Challenges and Questions/Complexity/Variations is that our program will not work on Decimals and Characters when given as input in the textfield. Secondly it can be possible in future that this issue will become a Challenge for others in order to improve it.
+The Challenges and Questions/Complexity/Variations is that our program will not work on Decimals and Characters when given as input in the textfield.
 
 Q.Which of the following is a disadvantage of linear search?<br>
 a) Requires more space<br>
