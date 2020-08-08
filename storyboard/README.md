@@ -67,7 +67,9 @@ d) The function calls itself infinite times<br>
 
 ##### 2.5 Allow pitfalls:
 
-If the user enters invalid data to the textfield, then the index number will not be displayed by the simulator. At the same time the alert message will be displayed to the user. So as the user will understand that he has entered the incorrect data in the simulator. 
+1.If the user enters invalid (decimals or character) data to the textfield, then the index number will not be displayed by the simulator. At the same time the alert message will be displayed to the user. So as the user will understand that he has entered the incorrect data in the simulator.
+
+2.If the user did not put comma (,) after each number in the textfield of "Enter the elements in the array", then the simulator will give a pop up message saying that "Please enter the elements in the array by putting the comma (,) after each element " at that time.
 
 ##### 2.6 Conclusion:
 
@@ -89,4 +91,4 @@ No Equations or Formulas are used here.
  
 ### 5. Storyboard :
 
-Storyboard: <a href="storyboard/linearsearch.gif"> [Click here]</a>  
+Storyboard : &nbsp;<a href="storyboard/linearsearch.gif"> [Click here]</a>  
