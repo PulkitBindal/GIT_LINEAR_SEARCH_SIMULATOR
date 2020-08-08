@@ -1,32 +1,31 @@
-## <b> Pre-test
+#### Pre-test
 #### Please attempt the following questions
 
-1) Interference occurs due to _______ of the light.<br>
-<b>a) Wave nature<br></b>
-b) particle nature<br>
-c) both a and b<br>
-d) none of these<br>
+Q.1 What is the worst case for linear search?<br>
+A. O(nlogn)<br>
+B. O(logn)<br>
+<b>C. O(n) </b> <br>
+D. O(1)<br>
 
-2) Superposition of crest over crest results in __________ .<br>
-a) Destructive interference<br>
-<b> b) Constructive interference<br></b>
-c) Diffraction<br>
-d) Polarization<br>
+Q.2 What is the worst case and best case complexity of ordered linear search?<br>
+A.Worst-case performance	O(1) & Best-case performance O(n) <br>
+<b>B.Worst-case performance	O(n) & Best-case performance O(1) </b><br>
+C.Worst-case performance	O(n) & Best-case performance O(n) <br>
+D.Worst-case performance	O(1) & Best-case performance O(1) <br>
 
-3) If two waves with amplitude (y1) and (y2) travelling in the same medium reach at a point in the medium, then the resultant displacement at that point in the medium, will be given by __________ .<br>
-a) y1 -y2<br>
-<b>b) y1 + y2<br></b>
-c) y1 / y2<br>
-d) y1 * y2<br>
+Q.3 What do you think this may be a disadvantage to linear search?<br>
+<b>A.when a key element matches the last element </b> <br>
+B.when a key element matches the first element <br> 
+C.when a key element matches the middle element <br>
 
-4) The condition for destructive interference is: the path difference should be equal to __________. <br>
-<b>a) Odd integral multiple of wavelength<br></b>
-b) Integral multiple of wavelength<br>
-c) Odd integral multiple of half wavelength<br>
-d) Integral multiple of half wavelength<br>
+Q.4 What do you think this may be a advantage to linear search?<br>
+A.Not affected by insertions and deletions.<br>
+B.Perform fast searches of small to medium lists.<br>
+C.The list does not need to sorted.<br>
+<b>D.All of the above.</b><br>
 
-5) In Newton's ring experiment, the diameter of the dark rings is proportional to __________ .<br>
-a) Odd natural numbers<br>
-b) Even natural numbers<br>
-c) Complex numbers<br>
-<b>d) square root of natural numbers<br></b>
+Q.5 What the linear search algorithm will return after completing the iteration (If element founds)?<br>
+A.Searched Element<br>
+<b>B.Index Of the Element </b> <br>
+C.An Array<br>
+D.Length of the array<br>
