@@ -2,44 +2,44 @@
 
    "details": [
        {
-			"Experiment": "",     
-			"Lab": "",               
-			"Discipline": "",				 
-			"Technology": ""         
+			"Experiment": "To write a python program linear search",     
+			"Lab": "Python Language Programming Lab",               
+			"Discipline": "Computer Science and Engineering",				 
+			"Technology": "HTML, CSS, JavaScript & Python"         
        }
    ],
 
    "developer": [
        {       
-      "Developer": "",         
-      "Institute": "",         
-      "InstituteAcronym": ""   
+      "Developer": "Pawan Pandey",         
+      "Institute": "Raj Kumar Goel Institute Of Technology",         
+      "InstituteAcronym": "RKGIT"   
        }
    ],
 
    "contributer": [
        {       
-			"Contributer": "",             
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Pulkit Bindal",             
+      "Institute": "Raj Kumar Goel Institute Of Technology, Ghaziabad",               
+			"InstituteAcronym": "RKGIT"         
        },
 
        {       
-			"Contributer": "",              
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Shaksham Agarwal",              
+      "Institute": "Raj Kumar Goel Institute Of Technology, Ghaziabad",                  
+			"InstituteAcronym": "RKGIT"    
        },
 
        {       
-			"Contributer": "",             
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Satyarth Singh",             
+      "Institute": "Raj Kumar Goel Institute Of Technology, Ghaziabad",               
+			"InstituteAcronym": "RKGIT"          
        },
 
        {       
-			"Contributer": "",              
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Shivangi Gupta",              
+      "Institute": "Raj Kumar Goel Institute Of Technology, Ghaziabad",                 
+			"InstituteAcronym": "RKGIT"       
        }
    ]
 
