@@ -16,7 +16,7 @@ Linear search is a very simple and basic search algorithm, also known as a seque
 
 <h5> Target Audience : </h5>
 
-All the under graduate students of computer related streams from varous engineering colleges and universities.
+All the under graduate students of computer related streams from various engineering colleges and universities.
 
 <h5> Course Alignment : </h5>
 
