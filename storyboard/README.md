@@ -4,7 +4,7 @@ Experiment 1: To write a python program linear search
 ### 1. Story Outline:
 
 Lets first know something interesting about linear search. In computational complexity theory, the linear search problem is an optimal search problem introduced by Richard E. Bellman. A linear search or sequential search is a method for finding an element within a list/array. It sequentially checks each element of the list until a match is found or the whole list has been searched.
-A linear search sequentially checks each element of the list until it fids an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully. Either way, asymptotically the worst-case cost and the expected cost of linear search are both O(n). O (n) because we have to look at every item in the array. Best-case O (1) because element searched found at I position 
+A linear search sequentially checks each element of the list until it fids an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully. Either way, asymptotically the worst-case cost and the expected cost of linear search are both O(n). O (n) because we have to look at every item in the array. Best-case O (1) because element searched found at 1st position 
 
 ### 2. Story:
 
