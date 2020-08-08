@@ -90,28 +90,59 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "What is the worst case for linear search?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "O(nlogn)",                  ///// Write the option 1 inside double quotes
+        b: "O(logn)",                  ///// Write the option 2 inside double quotes
+        c: "O(n)",                  ///// Write the option 3 inside double quotes
+        d: "O(1)"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "This is question 2?",  ///// Write the question inside double quotes
+     question: "What is the worst case and best case complexity of ordered linear search?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "Worst-case performance O(1) & Best-case performance O(n)",                  ///// Write the option 1 inside double quotes
+        b: "Worst-case performance O(n) & Best-case performance O(1)",                  ///// Write the option 2 inside double quotes
+        c: "Worst-case performance O(n) & Best-case performance O(n)",                  ///// Write the option 3 inside double quotes
+        d: "Worst-case performance O(1) & Best-case performance O(1)"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
 
+     {
+      question: "What do you think this may be a disadvantage to linear search?",
+      answers: {
+        a: "when a key element matches the last element",
+        b: "when a key element matches the first element",
+        c: "when a key element matches the middle element"
+      },
+      correctAnswer: "a"
+    },
+
+    {
+      question: "What do you think this may be a advantage to linear search?",
+      answers: {
+        a: "Not affected by insertions and deletions.",
+        b: "Perform fast searches of small to medium lists.",
+        c: "The list does not need to sorted.",
+        d: "All of the above."
+      },
+      correctAnswer: "d"
+    },
+    
+    {
+      question: "What the linear search algorithm will return after completing the iteration (If element founds)?",
+      answers: {
+        a: "Searched Element",
+        b: "Index Of the Element",
+        c: "An Array",
+        d: "Length of the array"
+      },
+      correctAnswer: "b"
+    },
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
         till closing curly braces comma ( }, )
