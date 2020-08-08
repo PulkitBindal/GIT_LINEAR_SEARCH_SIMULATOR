@@ -90,28 +90,57 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "A linear search algorithm is also known as_________",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "Binary search algorithm",                  ///// Write the option 1 inside double quotes
+        b: "Bubble sort algorithm",                  ///// Write the option 2 inside double quotes
+        c: "Sequential search algorithm"                   ///// Write the option 3 inside double quotes
+                                        ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "What will happen in a Linear search algorithm if no match is found?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "It continues to search in a never ending loop",                  ///// Write the option 1 inside double quotes
+        b: "Item not found is returned"                  ///// Write the option 2 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
-
+    {
+      question: "What will happen if you enter any decimal value in the array?",
+      answers: {
+        a: "No Issue, the simulator will work properly",
+        b: "The simulator will give an alert (Please enter only integer value)",
+        c: "None of the above"
+        
+      },
+      correctAnswer: "b"
+    },
+    
+    {
+      question: "Where is the linear search is used?",
+      answers: {
+        a: "When the list has only a few elements",
+        b: "When performing a single search in an unordered list",
+        c: "Used all the time",
+        d: "When the list has only a few elements and When performing a single search in an unordered list"
+      },
+      correctAnswer: "d"
+    },
+    
+    {
+      question: "Which of the following is a disadvantage of linear search?",
+      answers: {
+        a: "Requires more space",
+        b: "Greater time complexities compared to other searching algorithms",
+        c: "Not easy to understand",
+        d: "Not easy to implement"
+      },
+      correctAnswer: "b"
+    },
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
         till closing curly braces comma ( }, )
