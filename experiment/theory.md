@@ -25,12 +25,12 @@ Step 8: Exit
 #### Analysis
 procedure linear_search (list, value) <br>
 
-   for each item in the list<br>
-     &nbsp; &nbsp; if match item == value<br>
-         &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;return the item's location<br>
-      &nbsp; &nbsp; end if<br>
-   end for<br>
-
+    &nbsp;for each item in the list<br>
+     &nbsp; &nbsp; &nbsp; if match item == value<br>
+     &nbsp;     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;return the item's location<br>
+     &nbsp;  &nbsp; &nbsp; end if<br>
+  &nbsp;  end for<br>
+end procedure
 
 #### Non-uniform probabilities
 The performance of linear search improves if the desired value is more likely to be near the beginning of the list than to its end. Therefore, if some values are much more likely to be searched than others, it is desirable to place them at the beginning of the list.
