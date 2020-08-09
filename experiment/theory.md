@@ -25,7 +25,7 @@ Step 8: Exit
 #### Analysis
 procedure linear_search (list, value) <br>
 
-    &nbsp;for each item in the list<br>
+    &nbsp; for each item in the list<br>
      &nbsp; &nbsp; &nbsp; if match item == value<br>
      &nbsp;     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;return the item's location<br>
      &nbsp;  &nbsp; &nbsp; end if<br>
