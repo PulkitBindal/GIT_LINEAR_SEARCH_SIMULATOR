@@ -28,7 +28,7 @@ procedure linear_search (list, value) <br>
       &nbsp; &nbsp; if match item == value<br>
          &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;return the item's location<br>
        &nbsp; &nbsp; end if<br>
- ;  end for<br>
+  end for<br>
 end procedure
 
 #### Non-uniform probabilities
