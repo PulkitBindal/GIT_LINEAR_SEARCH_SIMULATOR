@@ -8,7 +8,7 @@ Fig.1 <br>
 <img src="images/Simulator SS blank.PNG"> <br>
 Fig.2 <br>
 4. Start the experiment by entering the number of elements in the array (N). <br>
-<img src="images/numberofelements.png"><br>
+<img src="images/numberofelements1.png"><br>
 Fig.3 <br>
 5. Next we have is a textfield, in which you have to enter the array a[N].<br>
 <img src="images/arrayscreenshot.png"> <br>
@@ -21,4 +21,4 @@ Fig.5 <br>
 Fig.6 <br>
 8. In the given textfield ( As shown in the following Figure ), you will get the index of the given number in "Element to be Searched" button.<br>
 <img src="images/elementindex.PNG"><br>
-Fig.6 <br>
+Fig.7 <br>
