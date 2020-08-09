@@ -44,9 +44,8 @@ Mapped By AKTU Virtual Cell.
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Pulkit Bindal | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | pulkit507shamli@gmail.com
-2 | Shaksham Agarwal | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | shaksham31072000@gmail.com
-3 | Satyarth Singh | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | satyarths1@gmail.com
-4 | Shivangi Gupta | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | guptashivangi760@gmail.com
-
-
+1 | Pawan Pandey | Faculty | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | pawanfcs@rkgit.edu.in
+2 | Pulkit Bindal | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | pulkit507shamli@gmail.com
+3 | Shaksham Agarwal | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | shaksham31072000@gmail.com
+4 | Satyarth Singh | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | satyarths1@gmail.com
+5 | Shivangi Gupta | Student | Computer Science and Engineering | Raj Kumar Goel Institute Of Technology, Ghaziabad | guptashivangi760@gmail.com
