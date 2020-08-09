@@ -26,9 +26,9 @@ Step 8: Exit
 procedure linear_search (list, value) <br>
 
    for each item in the list<br>
-     &nbsp; if match item == value<br>
-         &nbsp;return the item's location<br>
-      &nbspend if<br>
+     &nbsp; &nbsp; if match item == value<br>
+         &nbsp; &nbsp;return the item's location<br>
+      &nbsp; end if<br>
    end for<br>
 
 
