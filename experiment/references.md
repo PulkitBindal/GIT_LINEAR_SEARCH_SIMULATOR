@@ -1,5 +1,5 @@
 #### References
-1. GeeksforGeeks (A computer science portal for geeks)<br>
-2. W3Schools (THE WORLD'S LARGEST WEB DEVELOPER SITE)<br>
-3. Sanfoundry (Global Education and Learning)<br>
-4. Wikipedia (https://en.wikipedia.org/wiki/Linear_search)<br>
+1.  T. H. Cormen, C. E. Leiserson, R. Rivest and Clifford Stein, "Introduction to Algorithms", "MIT Press", Fourth Edition, 2003.<br>
+2. J. Keith, "HTML5 for Web Designers", "A Book Apart", 2010<br>
+3. J. Zeldman, "CSS3 for Web Designers", "A Book Apart", 2010<br>
+
