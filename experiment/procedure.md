@@ -5,7 +5,7 @@
 <img src="images/Simulatortab.PNG"> <br>
 Fig.1 <br>
 3. As far as you click on the "Simulator", you will be redirected to actual Simulator Section. <br>
-<img src="images/Simulator SS.PNG"> <br>
+<img src="images/Simulator SS blank.PNG"> <br>
 Fig.2 <br>
 4. Start the experiment by entering the number of elements in the array (N). <br>
 <img src="images/numberofelements.png"><br>
