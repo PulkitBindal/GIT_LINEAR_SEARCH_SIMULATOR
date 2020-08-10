@@ -48,15 +48,15 @@ const srchFunct=()=>{
   var crd = document.getElementsByClassName("card");
   let r=0;
   let s = document.getElementById("search").value;
-  for(let i=1;i<=8;i++){
+  for(let i=1;i<=9;i++){
     // crd[i-1].style.backgroundColor="yellow";
+    setTimeout(function (){crd[i-1].style.backgroundColor="yellow";},1000*i);
     if(s==arr[i-1])
     {
-      document.getElementById("rslt").innerHTML=("Element Found at position "+(i+1));
+      document.getElementById("rslt").innerHTML=("Element Found at position "+(i));
       r=1;
       break;
     }
-   setTimeout(function (){crd[i-1].style.backgroundColor="yellow";},1000*i); 
   }
   if(!r)
     document.getElementById("rslt").innerHTML=("Element not Found");
