@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RKGIT SIMULATOR</title>
+  <!--PAWAN PANDEY SIR (RKGIT),PULKIT BINDAL, SHIVANGI, SHAKSHAM AGGARWAL, SATYARTH SINGH-->
+  <link rel="stylesheet" href="css/simulator.css">
+  <script src="js/simulator.js"></script>
+
+</head>
+
+<body style="background:url('images/abc.png')">
+
+  <div class="container-fluid">
+    <div class="col-sm-12" style="text-align:center">
+      <h2>
+        <p class="white-text-with-blue-shadow" align="center"><strong>SIMULATION FOR LINEAR SEARCH USING PYTHON</strong>
+        </p>
+      </h2>
+    </div>
+
+    <div class="left">
+      <h1 style="color:red;">
+        <center>Demo: Linear Search</center>
+      </h1>
+
+      <div class="card">2</div>
+
+      <div class="card">4</div>
+
+      <div class="card">6</div>
+
+      <div class="card">8</div>
+
+      <div class="card">10</div>
+
+      <div class="card">12</div>
+
+      <div class="card">14</div>
+
+      <div class="card">16</div>
+      <div class="number">
+        <font size="3"><label for="search"><b><strong id="ntbs">Number To be Searched</strong></b></label></font> <input
+          type="text" id="search" name="search" style="width :90px;">
+      </div>
+      <h3><button onclick="srchFunct()" class="sbtn" style="width :100px; float:left; margin-left:50px">Start</button>
+      </h3>
+
+      <h3><button onclick="rstFunct()" class="sbtn" style="width :100px;">Reset</button> </h3>
+      <p id="rslt"></p>
+    </div>
+
+
+    <div class="main">
+      <h1 style="color:red;">
+        <center>Learn by Doing..</center>
+      </h1>
+      <h2>
+
+        <strong>Num of Elements in Array</strong>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" id="nsize" name="number" placeholder=" Enter the no of elements">
+        <br>
+        <strong>Elements Of
+          Array</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="lname" name="elements" placeholder=" a,b,c,d">
+        <br>
+        <strong>Element you want to search</strong>&nbsp;&nbsp;
+        <input type="text" id="fname" name="number" placeholder=" Enter the searched value">
+      </h2>
+      <h2><button onclick="myFunction()" class="sbtn">Search Element</button> </h2>
+      <h2>
+        <div id="result" style="
+		  width:560px;
+		  height:40px;
+      color:blue;
+      padding-left: 140px;
+      font-size: x-large;
+		
+		"></div>
+      </h2>
+    </div>
+  </div>
+
+  <div class="right">
+    <h1 style="color:red; ">
+      <center>Python Program</center>
+    </h1>
+    <p style="color: black; font-size:20px;">
+      plist = []
+      <br>
+      number = int(input("Enter the no of elements"))<br>
+
+      for i in range(0,number):
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; emt=int(input())
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; plist.append(emt)
+      <br>
+      print("The list is:", plist)<br>
+      searchItem=int(input('Enter a no to search for: '))
+
+      <br>found = False
+
+      <br>for i in range(len(plist)):
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if plist[i] == searchItem:
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;found = True
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print(searchItem,' was found in the list at index ', i+1)
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break<br>
+
+      if found == False:
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print(searchItem, ' was not found in the list!')<br>
+    </p>
+  </div>
+  </div>
+
+</body>
+
+</html>
