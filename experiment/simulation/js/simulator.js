@@ -19,7 +19,7 @@ const myFunction = ()=>{
   arr = (arr.value).split(',');
    for(let i=0;i<n;i++){
         if(arr[i]!=Number(arr[i])){
-            alert("Please enter integer x.innerHTML = Math.floor((Math.random() * 100) + 1);number only");
+            alert("Please enter integer number only");
             r=1;
             break;
         }
@@ -34,13 +34,13 @@ const myFunction = ()=>{
   {
       if(ele == arr[i])
       {
-          document.getElementById("result").innerHTML = "Element found at position " + (i+1);
+          document.getElementById("result").innerHTML = "Great..Element found at position " + (i+1);
           r=1;
           break;
       }
   }
   if(r===0)
-  document.getElementById("result").innerHTML = "Element not founded";}
+  document.getElementById("result").innerHTML = "Element not found";}
 }
 
 const srchFunct=()=>{
@@ -59,8 +59,9 @@ const srchFunct=()=>{
     crd[i].style.backgroundColor="silver";
   }
   if(!r)
-    document.getElementById("rslt").innerHTML=("Element not Founded");
+    document.getElementById("rslt").innerHTML=("Element not Found");
 }
+
 
 const rstFunct=()=>{
   var crd = document.getElementsByClassName("card");
