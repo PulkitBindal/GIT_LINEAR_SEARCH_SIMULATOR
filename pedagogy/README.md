@@ -68,7 +68,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 :--|:--|:--|:-:
 1.| Student will be able to know the linear search algorithm. | <br> Read theory concepts given. | Q. Where can linear search be performed ? <br> A. On numbers <br> B. On letters <br> <b> C. On both </b> <br>  D. None of these  <br> Q. A linear search algorithm is also known as- <br> A. Binary search algorithm <br> B. Bubble sort algorithm <br> <b> C. Sequential search algorithm <br> </b>  <br>
 2.| Student will be able to analyze the complexity of linear search algorithm. | Analyze the algorithm. <br> | Q. How many linear searches will it take to find the value 7 in the list [1,4,8,7,10,28]? <br> A. 2 <br> B. 3 <br> <b> C. 4 </b> <br> D. 5  <br> 
-3.| Student will be able to identify an element from given list of array | Insert an element to search. <br> |Q. What will happen in a Linear search algorithm if no match is found? <br> A. It continues to search in a never ending loop. <b> B. "Item not found" is returned </b> <br>   <br> 
+3.| Student will be able to identify an element from given list of array | Insert an element to search. <br> |Q. What will happen in a Linear search algorithm if no match is found? <br> A. It continues to search in a never ending loop. <b> <br> B. "Item not found" is returned </b> <br>   <br> 
 4.| Student will be able to Develop the python program for linear search algorithm. | Study (write) the program for algorithm. <br> | Q. What is an advantage of the Linear search algorithm? <br> <b>A. Performs well with small sized data sets </b><br> B. Can be used on data sets with more than a million elements <br> C. Is complicated to code  <br> 
 
 
