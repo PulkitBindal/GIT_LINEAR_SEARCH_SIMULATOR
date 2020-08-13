@@ -11,18 +11,17 @@
 
 </head>
 
-<body style="background:url('images/abc.png')">
+<body style="background:url()">
 
   <div class="container-fluid">
     <div class="col-sm-12" style="text-align:center">
       <h2>
-        <p class="white-text-with-blue-shadow" align="center"><strong>SIMULATION FOR LINEAR SEARCH USING PYTHON</strong>
+        <p class="white-text-with-blue-shadow" align="center">SIMULATION FOR LINEAR SEARCH USING PYTHON
         </p>
       </h2>
     </div>
-
     <div class="left">
-      <h1 style="color:red;">
+      <h1 style="color:tomato;">
         <center>Demo: Linear Search</center>
       </h1>
 
@@ -41,84 +40,73 @@
       <div class="card">14</div>
 
       <div class="card">16</div>
-      <div class="number">
-        <font size="3"><label for="search"><b><strong id="ntbs">Number To be Searched</strong></b></label></font> <input
-          type="text" id="search" name="search" style="width :90px;">
+      <div class="number" style="
+      padding-bottom: 43px;
+  ">
+        <font size="3"><label for="search"><b><strong id="ntbs">Element to be Searched</strong></b></label></font> <input
+          type="text" id="search" name="search" style="width :66px;">
       </div>
-      <h3><button onclick="srchFunct()" class="sbtn" style="width :100px; float:left; margin-left:50px">Start</button>
+      <h3><button onclick="srchFunct()" class="sbtn" style="width :100px; float:left; margin-left:80px">Start</button>
       </h3>
 
       <h3><button onclick="rstFunct()" class="sbtn" style="width :100px;">Reset</button> </h3>
-      <p id="rslt"></p>
+      <p id="rslt" style="display: none"></p>
     </div>
 
 
     <div class="main">
-      <h1 style="color:red;">
-        <center>Learn by Doing..</center>
+      <h1 style="color:tomato;">
+        <center>Simulator</center>
       </h1>
-      <h2>
-
-        <strong>Num of Elements in Array</strong>
-        &nbsp;&nbsp;&nbsp;
-        <input type="text" id="nsize" name="number" placeholder=" Enter the no of elements">
+      <h3 style="color:black";> &nbsp;&nbsp;&nbsp;(Select Check Box for Step by Step Functioning)</h3>
+      <h3>
+        <input type="checkbox" class="checkbox" id="check1" onclick="showFunc1()">
+        <label for="content1">No. of Elements in Array&nbsp;&nbsp;</label>
+        <input type="text" id="in1" placeholder="No. of Elements" style="display: none">
         <br>
-        <strong>Elements Of
-          Array</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="text" id="lname" name="elements" placeholder=" a,b,c,d">
+        <input type="checkbox" class="checkbox" id="check2" onclick="showFunc2()" >
+        <label for="content2">Elements of
+          Array&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="in2" placeholder="1,2,3,4" style="display: none">
         <br>
-        <strong>Element you want to search</strong>&nbsp;&nbsp;
-        <input type="text" id="fname" name="number" placeholder=" Enter the searched value">
-      </h2>
-      <h2><button onclick="myFunction()" class="sbtn">Search Element</button> </h2>
+        <input type="checkbox" class="checkbox" id="check3" onclick="showFunc3()">
+        <label for="content3">Element to be Searched&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" id="in3" placeholder="Element to be search" style="display: none">
+        <h2><button onclick="myFunction()" class="sbtn">Search Element</button> </h2>
+      </h3>
       <h2>
         <div id="result" style="
-		  width:560px;
-		  height:40px;
-      color:blue;
-      padding-left: 140px;
-      font-size: x-large;
+		  width: 400px;
+		  height: 34px;
+		  color:blue;
+		  font-size: xx-large;
+		  text-align:center;
+		  margin-left: 20px;
 		
-		"></div>
+    "></div>
       </h2>
     </div>
+
   </div>
 
   <div class="right">
-    <h1 style="color:red; ">
-      <center>Python Program</center>
+
+    <h1 style="color: tomato;">
+      <center>Execution</center>
     </h1>
-    <p style="color: black; font-size:20px;">
-      plist = []
-      <br>
-      number = int(input("Enter the no of elements"))<br>
+    <div class="inst1" >plist = [] <br>number = int(input("Num of Elements in Array
+      ")) </div>
 
-      for i in range(0,number):
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; emt=int(input())
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; plist.append(emt)
-      <br>
-      print("The list is:", plist)<br>
-      searchItem=int(input('Enter a no to search for: '))
+    <div class="inst2">for i in range(0,number):<br>&nbsp;&nbsp;emt=int(input())<br>&nbsp;&nbsp;plist.append(emt)<br></div>
 
-      <br>found = False
+    <div class="inst3">searchItem=int(input('Element you want to search: '))</div>
 
-      <br>for i in range(len(plist)):
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if plist[i] == searchItem:
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;found = True
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print(searchItem,' was found in the list at index ', i+1)
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; break<br>
+    <div class="inst4">found = False<br>for i in range(len(plist)):<br>&nbsp;&nbsp;if plist[i] == searchItem:<br>&nbsp;&nbsp;&nbsp;&nbsp;found = True<br>&nbsp;&nbsp;&nbsp;&nbsp;print('Great..Element found at position',i+1)<br>&nbsp;&nbsp;&nbsp;&nbsp;break
+    </div>
 
-      if found == False:
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print(searchItem, ' was not found in the list!')<br>
-    </p>
+    <div class="inst5">if found == False:<br>&nbsp;&nbsp;print("Element not found")</div>
   </div>
+
   </div>
 
 </body>
