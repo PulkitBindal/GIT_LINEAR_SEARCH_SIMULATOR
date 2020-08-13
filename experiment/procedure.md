@@ -1,24 +1,16 @@
 #### Procedure
 
 1. In order to start the experiment, Read the instructions and theory very carefully.<br>
-2. Attempt all the pretest questions and then click on the "Simulation" tab. (As shown in the figure)<br>
-<img src="images/Simulatortab.PNG"> <br>
-Fig.1 <br>
-3. As far as you click on the "Simulator", you will be redirected to actual Simulator Section. (As shown in the figure)<br>
-<img src="images/simulator SS final.PNG"> <br>
-Fig.2 <br>
-4. Start the experiment by entering the number of elements in the array (N). (As shown in the figure)<br>
-<img src="images/s2.PNG"><br>
-Fig.3 <br>
-5. Next we have is a textfield, in which you have to enter the array a[N].(As shown in the figure) <br>
-<img src="images/s3.PNG"> <br>
-Fig.4 <br>
-6. Now in last textfield, you have to enter the element you want to search from the given array itself (X).(As shown in the figure) <br>
-<img src="images/s4.PNG"><br>
-Fig.5 <br>
-7. In order to search the element you have to click on the "Search Element" button.(As shown in the figure) <br>
-<img src="images/s5.PNG"><br>
-Fig.6 <br>
-8. In the given textfield ( As shown in the following Figure ), you will get the index of the given number in "Element to be Searched" button.<br>
-<img src="images/s6.PNG"><br>
-Fig.7 <br>
+2. Attempt all the pretest questions and then click on the "Simulation" tab. <br>
+3. Having clicked the "Simulation", you will be redirected to Simulator. The landing page will consist of: <br>
+<strong> A. Demo: Linear search </strong> <br>
+<strong> B. Simulator and </strong> <br>
+<strong> C. Execution </strong> <br>
+4. Start with the Demo box. Here you will know, how the simulator step by step works. <br> 
+(i) You have to enter the value in the textfield named "Element to be search" and then click on the Start button. <br>
+(ii) On the same, you have been given a reset button, by pressing it, you can clear the textfield and dynamic array and finally you can start the process again.<br>
+5. Moving further towards the Simulator box. All you have to select one checkbox at a time and after that you have to enter the values. <br>
+For Example: <br> (i) If you check the first checkbox, then your first textfield will be enabled and along with that, you will also get the python code highlighted simultaneously in the Execution box. <br> 
+(ii) Similarly you have to check all 3 checkboxes of the Simulator one by one. <br>
+(iii) After selecting all the checkboxes and entering the values in all the textfields, you have to click on the "Search Element" Button. <br> 
+(iv) Having clicked on the "Search Element" Button. You will able to see whether the element is found at any index or not. Along with that, you will also see the code running in the Execution box at each step. <br>
