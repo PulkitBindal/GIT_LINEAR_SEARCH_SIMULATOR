@@ -5,60 +5,77 @@ var crd = document.getElementsByClassName("card");
 for(let i=0;i<8;i++){
   let rndm = Math.floor((Math.random() * 100) + 1);
   arr.push(rndm);
-  crd[i].innerHTML=rndm;
-
-// console.log(crd.getElementsByClassName("card"));
-// crd[1].innerHTML = "Milk";   
+  crd[i].innerHTML=rndm; 
         }
 }
 const myFunction = ()=>{
-  let n = document.getElementById('nsize').value;
-  let arr = document.getElementById('lname');
-  let ele = document.getElementById('fname').value;
+  let n = document.getElementById('in1').value;
+  let arr = document.getElementById('in2');
+  let ele = document.getElementById('in3').value;
   let r=0;
   arr = (arr.value).split(',');
    for(let i=0;i<n;i++){
         if(arr[i]!=Number(arr[i])){
-            alert("Please enter integer number only");
             r=1;
             break;
         }
         else if((Number(arr[i])-Math.floor(Number(arr[i])))!==0){
-            alert("Please enter integer number only");
             r=1;
             break;
         }
    }
    if(!r)
-  {for(let i=0;i<n;i++)
+  {
+let re=0;
+    for(let i=0;i<n;i++)
   {
       if(ele == arr[i])
       {
           document.getElementById("result").innerHTML = "Great..Element found at position " + (i+1);
-          r=1;
+          re=1;
+          document.getElementsByClassName("inst4")[0].style.color = "red";
+          document.getElementsByClassName("inst5")[0].style.color = "black";
           break;
       }
   }
-  if(r===0)
-  document.getElementById("result").innerHTML = "Element not found";}
+  if(re==0){
+    document.getElementById("result").innerHTML = "Element not found";
+    document.getElementsByClassName("inst5")[0].style.color = "red";
+    document.getElementsByClassName("inst4")[0].style.color = "black";
+  }
+}
 }
 
-const srchFunct=()=>{
+const wt = (i,r)=>{
+    setTimeout(function (){
+      var crd = document.getElementsByClassName("card");
+      crd[i-1].style.backgroundColor="yellow";
+      if(i==r){
+           document.getElementById("rslt").style.display="block";}
+           else
+            {crd[i-1].style.backgroundColor="silver";}
+  },1000*(i-1));
+}
+
+const srchFunct=  ()=>{
   console.log("connected");
   var crd = document.getElementsByClassName("card");
   let r=0;
   let s = document.getElementById("search").value;
   for(let i=1;i<=9;i++){
-    // crd[i-1].style.backgroundColor="yellow";
-    setTimeout(function (){crd[i-1].style.backgroundColor="yellow";},1000*i);
+    
     if(s==arr[i-1])
     {
       document.getElementById("rslt").innerHTML=("Element Found at position "+(i));
-      r=1;
-      break;
+      r=i;
+      
     }
+    wt(i,r);
+    if(r)
+      {break;}
+
   }
-  if(!r)
+    if(!r)
     document.getElementById("rslt").innerHTML=("Element not Found");
 }
 
@@ -66,8 +83,41 @@ const srchFunct=()=>{
 const rstFunct=()=>{
   var crd = document.getElementsByClassName("card");
   for(let i=0;i<8;i++){
-    crd[i].style.backgroundColor="#f2f2f2";
+    crd[i].style.backgroundColor="white";
   }
   document.getElementById("search").value="";
   document.getElementById("rslt").innerHTML="";
+  document.getElementById("rslt").style.display="none";
+}
+
+function showFunc1() {
+  var checkBox = document.getElementById("check1");
+  var text = document.getElementById("in1");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+    text.style.display = "none";
+  }
+
+  document.getElementsByClassName("inst1")[0].style.color = "red";
+}
+function showFunc2() {
+  var checkBox = document.getElementById("check2");
+  var text = document.getElementById("in2");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+    text.style.display = "none";
+  }
+  document.getElementsByClassName("inst2")[0].style.color = "red";
+}
+function showFunc3() {
+  var checkBox = document.getElementById("check3");
+  var text = document.getElementById("in3");
+  if (checkBox.checked == true){
+    text.style.display = "inline";
+  } else {
+    text.style.display = "none";
+  }
+  document.getElementsByClassName("inst3")[0].style.color = "red";
 }
