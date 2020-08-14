@@ -53,7 +53,11 @@ const wt = (i,r)=>{
       if(i==r){
            document.getElementById("rslt").style.display="block";}
            else
-            {crd[i-1].style.backgroundColor="silver";}
+            {crd[i-1].style.backgroundColor="silver";
+          if(i===8)
+          {
+            document.getElementById("rslt").style.display="block";}
+          }
   },1000*(i-1));
 }
 
@@ -66,7 +70,7 @@ const srchFunct=  ()=>{
     
     if(s==arr[i-1])
     {
-      document.getElementById("rslt").innerHTML=("Element Found at position "+(i));
+      document.getElementById("rslt").innerHTML=("Element found at position "+(i));
       r=i;
       
     }
@@ -76,7 +80,7 @@ const srchFunct=  ()=>{
 
   }
     if(!r)
-    document.getElementById("rslt").innerHTML=("Element not Found");
+    document.getElementById("rslt").innerHTML=("Element not found");
 }
 
 
@@ -91,33 +95,40 @@ const rstFunct=()=>{
 }
 
 function showFunc1() {
+  console.log("hello");
   var checkBox = document.getElementById("check1");
-  var text = document.getElementById("in1");
   if (checkBox.checked == true){
-    text.style.display = "inline";
+    
+    document.getElementById("in1").removeAttribute("disabled");
+    document.getElementsByClassName("inst1")[0].style.color = "red";
   } else {
-    text.style.display = "none";
+    
+    document.getElementById("in1").setAttribute("disabled",true);
+    document.getElementsByClassName("inst1")[0].style.color = "black";
   }
 
-  document.getElementsByClassName("inst1")[0].style.color = "red";
+
+  
 }
 function showFunc2() {
   var checkBox = document.getElementById("check2");
   var text = document.getElementById("in2");
   if (checkBox.checked == true){
-    text.style.display = "inline";
+    document.getElementById("in2").removeAttribute("disabled");
+    document.getElementsByClassName("inst2")[0].style.color = "red";
   } else {
-    text.style.display = "none";
+    document.getElementById("in2").setAttribute("disabled",true);
+    document.getElementsByClassName("inst2")[0].style.color = "black";
   }
-  document.getElementsByClassName("inst2")[0].style.color = "red";
+ 
 }
 function showFunc3() {
   var checkBox = document.getElementById("check3");
   var text = document.getElementById("in3");
   if (checkBox.checked == true){
-    text.style.display = "inline";
+    document.getElementById("in3").removeAttribute("disabled");
+    document.getElementsByClassName("inst3")[0].style.color = "red";
   } else {
-    text.style.display = "none";
-  }
-  document.getElementsByClassName("inst3")[0].style.color = "red";
-}
+    document.getElementById("in3").setAttribute("disabled",true);
+    document.getElementsByClassName("inst3")[0].style.color = "black";
+  }}
