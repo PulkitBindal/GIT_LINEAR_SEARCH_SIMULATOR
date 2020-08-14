@@ -36,7 +36,7 @@ Mapped By AKTU Virtual Cell.
 
 <b>Mentored by | <b> Dr. Sangeeta Arora
 :--|:--|
-<b> Institute | <b> Krishna Institute of Engineering and Technology
+<b> Institute | <b> KIET Group of Institutions
 <b> Email id|     <b> sangeeta.arora@kiet.edu
 <b> Department | Computer Science and Engineering
 
