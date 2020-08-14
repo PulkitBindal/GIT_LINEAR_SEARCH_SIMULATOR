@@ -14,6 +14,27 @@ const myFunction = ()=>{
   let ele = document.getElementById('in3').value;
   let r=0;
   arr = (arr.value).split(',');
+  if(n!=arr.length ){
+      document.getElementById("result").style.color="red";
+      document.getElementById("result").innerHTML = "Error: Please provide all&nbsp;"+(n)+"&nbsp;elements"; 
+    return;
+  }
+  if(ele==""){
+    document.getElementById("result").style.color="red";
+    document.getElementById("result").innerHTML= "Error: Please provide element to be searched";
+    return;
+  }
+  if(arr==""){
+    document.getElementById("result").style.color="red";
+    document.getElementById("result").innerHTML= "Error: Please provide an array";
+    return;
+  }
+  if(n==""){
+    
+    document.getElementById("result").style.color="red";
+    document.getElementById("result").innerHTML= "Error: Please provide number of elements";
+    return;
+  }
    for(let i=0;i<n;i++){
         if(arr[i]!=Number(arr[i])){
             r=1;
@@ -31,7 +52,8 @@ let re=0;
   {
       if(ele == arr[i])
       {
-          document.getElementById("result").innerHTML = "Great..Element found at position " + (i+1);
+          document.getElementById("result").style.color="blue";
+          document.getElementById("result").innerHTML = "Great..Element found at position "+ (i+1);
           re=1;
           document.getElementsByClassName("inst4")[0].style.color = "red";
           document.getElementsByClassName("inst5")[0].style.color = "black";
@@ -39,13 +61,13 @@ let re=0;
       }
   }
   if(re==0){
+    document.getElementById("result").style.color="blue";
     document.getElementById("result").innerHTML = "Element not found";
     document.getElementsByClassName("inst5")[0].style.color = "red";
     document.getElementsByClassName("inst4")[0].style.color = "black";
   }
 }
 }
-
 const wt = (i,r)=>{
     setTimeout(function (){
       var crd = document.getElementsByClassName("card");
@@ -70,6 +92,7 @@ const srchFunct=  ()=>{
     
     if(s==arr[i-1])
     {
+      document.getElementById("rslt").style.color="blue";
       document.getElementById("rslt").innerHTML=("Element found at position "+(i));
       r=i;
       
@@ -80,6 +103,7 @@ const srchFunct=  ()=>{
 
   }
     if(!r)
+    document.getElementById("rslt").style.color="blue";
     document.getElementById("rslt").innerHTML=("Element not found");
 }
 
