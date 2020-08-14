@@ -91,4 +91,4 @@ No Equations or Formulas are used here.
  
 ### 5. Storyboard :
 
-Storyboard : &nbsp;<a href="storyboard/simulatorstoryboard.gif"> [Click here]</a>  
+Storyboard : &nbsp;<a href="storyboard/syntaxgif.gif"> [Click here]</a>  
