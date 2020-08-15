@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RKGIT SIMULATOR</title>
   <!--PAWAN PANDEY SIR (RKGIT),PULKIT BINDAL, SHIVANGI, SHAKSHAM AGGARWAL, SATYARTH SINGH-->
-  <link rel="stylesheet" href="css/simulator.css">
-  <script src="js/simulator.js"></script>
+  <link rel="stylesheet" href="simulator.css">
+  <script src="simulator.js"></script>
 
 </head>
 
@@ -50,7 +50,8 @@
       </h3>
 
       <h3><button onclick="rstFunct()" class="sbtn" style="width :100px;">Reset</button> </h3>
-      <p id="rslt" style="display: none"></p>
+      <!-- <p id="rslt" style="display:none"></p> -->
+      <p id="rslt" style="display:none"></p>
     </div>
 
 
@@ -58,13 +59,13 @@
       <h1 style="color:red;">
         <center>Simulator</center>
       </h1>
-      <h3 style="color:black";>&nbsp;&nbsp;(Select Check Box for Step by Step Functioning)</h3>
+      <h3 style="color:black" ;>&nbsp;&nbsp;(Select Check Box for Step by Step Functioning)</h3>
       <h3>
         <input type="checkbox" class="checkbox" id="check1" onclick="showFunc1()">
         <label for="content1">No. of Elements in Array&nbsp;&nbsp;</label>
         <input type="text" id="in1" placeholder="No. of Elements" style="outline: none;" disabled>
         <br>
-        <input type="checkbox" class="checkbox" id="check2" onclick="showFunc2()" >
+        <input type="checkbox" class="checkbox" id="check2" onclick="showFunc2()">
         <label for="content2">Elements of
           Array&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
         <input type="text" id="in2" placeholder="1,2,3,4" style="outline: none;" disabled="disabled">
@@ -94,14 +95,17 @@
     <h1 style="color: red;">
       <center>Execution</center>
     </h1>
-    <div class="inst1" >plist = [] <br>number = int(input("Num of Elements in Array
+    <div class="inst1">plist = [] <br>number = int(input("Num of Elements in Array
       ")) </div>
 
-    <div class="inst2">for i in range(0,number):<br>&nbsp;&nbsp;emt=int(input())<br>&nbsp;&nbsp;plist.append(emt)<br></div>
+    <div class="inst2">for i in range(0,number):<br>&nbsp;&nbsp;emt=int(input())<br>&nbsp;&nbsp;plist.append(emt)<br>
+    </div>
 
     <div class="inst3">searchItem=int(input('Element you want to search: '))</div>
 
-    <div class="inst4">found = False<br>for i in range(len(plist)):<br>&nbsp;&nbsp;if plist[i] == searchItem:<br>&nbsp;&nbsp;&nbsp;&nbsp;found = True<br>&nbsp;&nbsp;&nbsp;&nbsp;print('Great..Element found at position',i+1)<br>&nbsp;&nbsp;&nbsp;&nbsp;break
+    <div class="inst4">found = False<br>for i in range(len(plist)):<br>&nbsp;&nbsp;if plist[i] ==
+      searchItem:<br>&nbsp;&nbsp;&nbsp;&nbsp;found = True<br>&nbsp;&nbsp;&nbsp;&nbsp;print('Great..Element found at
+      position',i+1)<br>&nbsp;&nbsp;&nbsp;&nbsp;break
     </div>
 
     <div class="inst5">if found == False:<br>&nbsp;&nbsp;print("Element not found")</div>
