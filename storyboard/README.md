@@ -87,8 +87,8 @@ No Equations or Formulas are used here.
 
 ### 4. Mindmap :
 
-<img src="mindmap/mindmapfinal.png"/>
+<img src="mindmap/mindmap.png"/>
  
 ### 5. Storyboard :
 
-Storyboard : &nbsp;<a href="storyboard/syntaxgif.gif"> [Click here]</a>  
+Storyboard :&nbsp;<a href="storyboard/syntaxgif.gif"> [Click here]</a>  
