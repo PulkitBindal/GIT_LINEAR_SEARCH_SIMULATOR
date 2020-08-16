@@ -14,9 +14,14 @@ const myFunction = () => {
   let ele = document.getElementById('in3').value;
   let r = 0;
   arr = (arr.value).split(',');
-  if (n != arr.length) {
+  if (n != Number(n)) {
     document.getElementById("result").style.color = "red";
-    document.getElementById("result").innerHTML = "Error: Please provide all&nbsp;" + (n) + "&nbsp;elements";
+    document.getElementById("result").innerHTML = "Error: Invalid data";
+    return;
+  }
+  if (((Number(n) - Math.floor(Number(n))) !== 0)) {
+    document.getElementById("result").style.color = "red";
+    document.getElementById("result").innerHTML = "Error: Please enter valid datatype";
     return;
   }
   if (ele == "") {
@@ -29,19 +34,34 @@ const myFunction = () => {
     document.getElementById("result").innerHTML = "Error: Please provide an array";
     return;
   }
+  if (n != arr.length) {
+    document.getElementById("result").style.color = "red";
+    document.getElementById("result").innerHTML = "Error: Enter all&nbsp;" + (n) + "&nbsp;elements";
+    return;
+  }
   if (n == "") {
 
     document.getElementById("result").style.color = "red";
     document.getElementById("result").innerHTML = "Error: Please provide number of elements";
     return;
   }
+  // console.log(ele,typeof (ele));
+  if (ele != Number(ele) || ((Number(ele) - Math.floor(Number(ele))) !== 0)) {
+    console.log("error"); document.getElementById("result").style.color = "red";
+    document.getElementById("result").innerHTML = "Error: Invalid data";
+    return;
+  }
   for (let i = 0; i < n; i++) {
     if (arr[i] != Number(arr[i])) {
       r = 1;
+      document.getElementById("result").style.color = "red";
+      document.getElementById("result").innerHTML = "Error: Please provide a integer number";
       break;
     }
     else if ((Number(arr[i]) - Math.floor(Number(arr[i]))) !== 0) {
       r = 1;
+      document.getElementById("result").style.color = "red";
+      document.getElementById("result").innerHTML = "Error: Please provide a integer number";
       break;
     }
   }
@@ -65,6 +85,22 @@ const myFunction = () => {
     }
   }
 }
+const rstFunctsimulator = () => {
+  console.log("reset");
+  var crd = document.getElementsByClassName("in1");
+  var crd = document.getElementsByClassName("in2");
+  var crd = document.getElementsByClassName("in3");
+  document.getElementById("in1").value = "";
+  document.getElementById("in2").value = "";
+  document.getElementById("in3").value = "";
+  document.getElementById("result").innerText = "";
+  document.getElementsByClassName("inst1")[0].style.color = "black";
+  document.getElementsByClassName("inst2")[0].style.color = "black";
+  document.getElementsByClassName("inst3")[0].style.color = "black";
+  document.getElementsByClassName("inst4")[0].style.color = "black";
+  document.getElementsByClassName("inst5")[0].style.color = "black";
+}
+
 const wt = (i, r) => {
   setTimeout(function () {
     var crd = document.getElementsByClassName("card");
