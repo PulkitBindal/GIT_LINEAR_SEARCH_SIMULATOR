@@ -8,12 +8,12 @@ input[type=text], select {
 .sbtn
 {
   background-color:yellow;
-    margin: auto;
-    display: block;
     outline: none;
     border: 2px solid black;
     font-size: 1.1em;
     border-radius: 5px;
+    margin-left: 53px;
+    margin-top: 20px;
 }
 .sbtn:hover {
   transform: scale(1.1); 
