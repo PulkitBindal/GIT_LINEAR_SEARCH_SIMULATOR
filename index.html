@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulkit's Linear Search Simulator</title>
+    <!--PAWAN PANDEY SIR (RKGIT),PULKIT BINDAL, SHIVANGI, SHAKSHAM AGGARWAL, SATYARTH SINGH-->
+    <style>
+        input[type=text],
+        select {
+            width: 36%;
+            padding: 15px 2px 12px 8px;
+            margin: 11px 0px;
+            border: 2px solid black;
+            border-radius: 13px;
+        }
+        
+        .sbtn {
+            background-color: yellow;
+            outline: none;
+            border: 2px solid black;
+            font-size: 1.1em;
+            border-radius: 5px;
+            margin-left: 53px;
+            margin-top: 20px;
+        }
+        
+        .sbtn:hover {
+            transform: scale(1.1);
+        }
+        
+        .white-text-with-blue-shadow {
+            text-shadow: 3px 2px 2px black, 0 0 0.6em blue, 0 0 0.2em blue;
+            color: white;
+            font: 1.3em Georgia, serif;
+        }
+        
+        .left {
+            width: 410px;
+            height: 480px;
+            float: left;
+            margin: 5px;
+            border: 3px solid black;
+            border-radius: 15px;
+        }
+        
+        .main {
+            width: 413px;
+            height: 480px;
+            float: left;
+            padding: 0px 10px;
+            margin: 5px;
+            border: 3px solid black;
+            border-radius: 15px;
+        }
+        
+        .right {
+            width: 424px;
+            height: 470px;
+            float: left;
+            padding: 5px;
+            margin: 5px;
+            border: 3px solid black;
+            border-radius: 15px;
+        }
+        
+        .card {
+            width: 25px;
+            height: 20px;
+            float: left;
+            border: 2px solid black;
+            border-radius: 5px;
+            margin-left: 10px;
+            padding: 6px 4px;
+            font-weight: bold;
+        }
+        
+        #columnleft {
+            width: 370px;
+            height: 450px;
+            float: left;
+            text-align: left;
+        }
+        
+        .number {
+            font-weight: bold;
+            padding: 62px 12px;
+        }
+        
+        #search {
+            font-size: x-large;
+            border: 2px solid black;
+        }
+        
+        #rslt {
+            width: 400px;
+            height: 34px;
+            color: blue;
+            font-size: x-large;
+            text-align: center;
+            margin-left: 15px;
+            font-weight: bold;
+            padding-top: 50px;
+        }
+        
+        #ntbs {
+            font-size: x-large;
+        }
+        
+        .inst1 {
+            width: 435px;
+            height: 60px;
+            padding-left: 2px;
+            border-radius: 8px;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+            font-size: large;
+        }
+        
+        .inst2 {
+            width: 435px;
+            height: 75px;
+            padding-left: 2px;
+            padding-top: 1px;
+            border-radius: 8px;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+            font-size: large;
+        }
+        
+        .inst3 {
+            width: 435px;
+            height: 40px;
+            padding-left: 2px;
+            padding-top: 2px;
+            border-radius: 8px;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+            font-size: large;
+        }
+        
+        .inst4 {
+            width: 435px;
+            height: 150px;
+            padding-left: 2px;
+            border-radius: 8px;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+            font-size: large;
+        }
+        
+        .inst5 {
+            width: 435px;
+            height: 50px;
+            padding-left: 2px;
+            padding-top: 2px;
+            border-radius: 8px;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+            font-size: large;
+        }
+        
+        input.checkbox {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .dropdown {
+            font-size: x-large;
+            padding-left: 10px;
+            margin-left: 120px;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 70px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+    <script>
+        var arr = [];
+        window.onload = function() {
+            console.log("js connected");
+            var crd = document.getElementsByClassName("card");
+            for (let i = 0; i < 8; i++) {
+                let rndm = Math.floor((Math.random() * 100) + 1);
+                arr.push(rndm);
+                crd[i].innerHTML = rndm;
+            }
+        }
+        const myFunction = () => {
+            let n = document.getElementById('in1').value;
+            let arr = document.getElementById('in2');
+            let ele = document.getElementById('in3').value;
+            let r = 0;
+            arr = (arr.value).split(',');
+            if (n != Number(n)) {
+                document.getElementById("result").style.color = "red";
+                document.getElementById("result").innerHTML = "Error: Invalid data";
+                return;
+            }
+            if (((Number(n) - Math.floor(Number(n))) !== 0)) {
+                document.getElementById("result").style.color = "red";
+                document.getElementById("result").innerHTML = "Error: Please enter valid datatype";
+                return;
+            }
+            if (ele == "") {
+                document.getElementById("result").style.color = "red";
+                document.getElementById("result").innerHTML = "Error: Please provide element to be searched";
+                return;
+            }
+            if (arr == "") {
+                document.getElementById("result").style.color = "red";
+                document.getElementById("result").innerHTML = "Error: Please provide an array";
+                return;
+            }
+            if (n != arr.length) {
+                document.getElementById("result").style.color = "red";
+                document.getElementById("result").innerHTML = "Error: Enter all&nbsp;" + (n) + "&nbsp;elements";
+                return;
+            }
+            if (n == "") {
+
+                document.getElementById("result").style.color = "red";
+                document.getElementById("result").innerHTML = "Error: Please provide number of elements";
+                return;
+            }
+            // console.log(ele,typeof (ele));
+            if (ele != Number(ele) || ((Number(ele) - Math.floor(Number(ele))) !== 0)) {
+                console.log("error");
+                document.getElementById("result").style.color = "red";
+                document.getElementById("result").innerHTML = "Error: Invalid data";
+                return;
+            }
+            for (let i = 0; i < n; i++) {
+                if (arr[i] != Number(arr[i])) {
+                    r = 1;
+                    document.getElementById("result").style.color = "red";
+                    document.getElementById("result").innerHTML = "Error: Please provide a integer number";
+                    break;
+                } else if ((Number(arr[i]) - Math.floor(Number(arr[i]))) !== 0) {
+                    r = 1;
+                    document.getElementById("result").style.color = "red";
+                    document.getElementById("result").innerHTML = "Error: Please provide a integer number";
+                    break;
+                }
+            }
+            if (!r) {
+                let re = 0;
+                for (let i = 0; i < n; i++) {
+                    if (ele == arr[i]) {
+                        document.getElementById("result").style.color = "blue";
+                        document.getElementById("result").innerHTML = "Great..Element found at position " + (i + 1);
+                        re = 1;
+                        document.getElementsByClassName("inst4")[0].style.color = "red";
+                        document.getElementsByClassName("inst5")[0].style.color = "black";
+                        break;
+                    }
+                }
+                if (re == 0) {
+                    document.getElementById("result").style.color = "blue";
+                    document.getElementById("result").innerHTML = "Element not found";
+                    document.getElementsByClassName("inst5")[0].style.color = "red";
+                    document.getElementsByClassName("inst4")[0].style.color = "black";
+                }
+            }
+        }
+        const rstFunctsimulator = () => {
+            console.log("reset");
+            var crd = document.getElementsByClassName("in1");
+            var crd = document.getElementsByClassName("in2");
+            var crd = document.getElementsByClassName("in3");
+            document.getElementById("in1").value = "";
+            document.getElementById("in2").value = "";
+            document.getElementById("in3").value = "";
+            document.getElementById("result").innerText = "";
+            document.getElementsByClassName("inst1")[0].style.color = "black";
+            document.getElementsByClassName("inst2")[0].style.color = "black";
+            document.getElementsByClassName("inst3")[0].style.color = "black";
+            document.getElementsByClassName("inst4")[0].style.color = "black";
+            document.getElementsByClassName("inst5")[0].style.color = "black";
+        }
+
+        const wt = (i, r) => {
+            setTimeout(function() {
+                var crd = document.getElementsByClassName("card");
+                crd[i - 1].style.backgroundColor = "yellow";
+                if (i == r) {
+                    document.getElementById("rslt").style.display = "block";
+                } else {
+                    crd[i - 1].style.backgroundColor = "silver";
+                    if (i === 8) {
+                        document.getElementById("rslt").style.display = "block";
+                    }
+                }
+            }, 1000 * (i - 1));
+        }
+
+        const srchFunct = () => {
+            console.log("connected");
+            var crd = document.getElementsByClassName("card");
+            let r = 0;
+            let s = document.getElementById("search").value;
+            for (let i = 1; i <= 9; i++) {
+
+                if (s == arr[i - 1]) {
+                    document.getElementById("rslt").style.color = "blue";
+                    document.getElementById("rslt").innerHTML = ("Element found at position " + (i));
+                    r = i;
+
+                }
+                wt(i, r);
+                if (r) {
+                    break;
+                }
+
+            }
+            if (!r) {
+                document.getElementById("rslt").style.color = "blue";
+                document.getElementById("rslt").innerHTML = ("Element not found");
+            }
+        }
+
+        const rstFunct = () => {
+            var crd = document.getElementsByClassName("card");
+            for (let i = 0; i < 8; i++) {
+                crd[i].style.backgroundColor = "white";
+            }
+            document.getElementById("search").value = "";
+            document.getElementById("rslt").innerHTML = "";
+            document.getElementById("rslt").style.display = "none";
+        }
+
+        function showFunc1() {
+            console.log("hello");
+            var checkBox = document.getElementById("check1");
+            if (checkBox.checked == true) {
+
+                document.getElementById("in1").removeAttribute("disabled");
+                document.getElementsByClassName("inst1")[0].style.color = "red";
+            } else {
+
+                document.getElementById("in1").setAttribute("disabled", true);
+                document.getElementsByClassName("inst1")[0].style.color = "black";
+            }
+
+
+
+        }
+
+        function showFunc2() {
+            var checkBox = document.getElementById("check2");
+            var text = document.getElementById("in2");
+            if (checkBox.checked == true) {
+                document.getElementById("in2").removeAttribute("disabled");
+                document.getElementsByClassName("inst2")[0].style.color = "red";
+            } else {
+                document.getElementById("in2").setAttribute("disabled", true);
+                document.getElementsByClassName("inst2")[0].style.color = "black";
+            }
+
+        }
+
+        function showFunc3() {
+            var checkBox = document.getElementById("check3");
+            var text = document.getElementById("in3");
+            if (checkBox.checked == true) {
+                document.getElementById("in3").removeAttribute("disabled");
+                document.getElementsByClassName("inst3")[0].style.color = "red";
+            } else {
+                document.getElementById("in3").setAttribute("disabled", true);
+                document.getElementsByClassName("inst3")[0].style.color = "black";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="col-sm-12" style="text-align:center">
+            <h2>
+                <p class="white-text-with-blue-shadow" align="center">SIMULATION FOR LINEAR SEARCH USING PYTHON
+                </p>
+            </h2>
+        </div>
+        <div class="left">
+            <h1 style="color:red;">
+                <center>Demo: Linear Search</center>
+            </h1>
+
+            <div class="card">2</div>
+
+            <div class="card">4</div>
+
+            <div class="card">6</div>
+
+            <div class="card">8</div>
+
+            <div class="card">10</div>
+
+            <div class="card">12</div>
+
+            <div class="card">14</div>
+
+            <div class="card">16</div>
+            <div class="number" style="
+      padding-bottom: 43px;
+  ">
+                <font><label><b><strong id="ntbs">Element to be Searched&nbsp;&nbsp;</strong></b></label></font> <input type="text" id="search" name="search" style="width :66px; outline: none;">
+            </div>
+            <h3><button onclick="srchFunct()" class="sbtn" style="width :100px; float:left; margin-left:80px">Start</button>
+            </h3>
+
+            <h3><button onclick="rstFunct()" class="sbtn" style="width :100px;">Reset</button> </h3>
+            <p id="rslt" style="display:none"></p>
+        </div>
+
+
+        <div class="main">
+            <h1 style="color:red;">
+                <center>Simulator</center>
+            </h1>
+            <h3 style="color:black" ;>&nbsp;&nbsp;(Select Check Box for Step by Step Functioning)</h3>
+            <h3>
+                <input type="checkbox" class="checkbox" id="check1" onclick="showFunc1()">
+                <label for="content1">No. of Elements in Array&nbsp;&nbsp;</label>
+                <input type="text" id="in1" placeholder="No. of Elements" style="outline: none;" disabled>
+                <br>
+                <input type="checkbox" class="checkbox" id="check2" onclick="showFunc2()">
+                <label for="content2">Elements of
+          Array&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="in2" placeholder="1,2,3,4" style="outline: none;" disabled="disabled">
+                <br>
+                <input type="checkbox" class="checkbox" id="check3" onclick="showFunc3()">
+                <label for="content3">Element to be Searched&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" id="in3" placeholder="Element to be search" style="outline: none;" disabled="disabled">
+                <button onclick="myFunction()" class="sbtn">Search Element</button>
+                <button onclick="rstFunctsimulator()" class="sbtn">Reset</button>
+            </h3>
+            <h2>
+                <div id="result" style="
+      width: 400px;
+      height: 34px;
+      color:blue;
+      font-size: x-large;
+      text-align:center;
+      
+    
+    "></div>
+            </h2>
+        </div>
+
+    </div>
+
+    <div class="right">
+
+        <h1 style="color: red;">
+            <center>Execution</center>
+        </h1>
+        <div class="inst1">plist = [] <br>number = int(input("Num of Elements in Array ")) </div>
+
+        <div class="inst2">for i in range(0,number):<br>&nbsp;&nbsp;emt=int(input())<br>&nbsp;&nbsp;plist.append(emt)<br>
+        </div>
+
+        <div class="inst3">searchItem=int(input('Element you want to search: '))</div>
+
+        <div class="inst4">found = False<br>for i in range(len(plist)):<br>&nbsp;&nbsp;if plist[i] == searchItem:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;found = True<br>&nbsp;&nbsp;&nbsp;&nbsp;print('Great..Element found at position',i+1)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;break
+        </div>
+
+        <div class="inst5">if found == False:<br>&nbsp;&nbsp;print("Element not found")</div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
